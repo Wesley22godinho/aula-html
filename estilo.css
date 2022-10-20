@@ -1,0 +1,138 @@
+body{
+    background-color: #e6e6e6;
+    margin: 0; 
+    padding: 0;
+
+}
+nav {
+    background-color: #ffffff;
+    height: 70px;
+}
+.esquerda {
+    float: left;
+}
+.direita {
+    float: right;
+}
+
+nav img {
+    padding: 10px;
+}
+
+nav li{
+    display: inline-block;/* */
+    margin-top: 10px;
+    padding: 0 10px;
+
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+#inicio {
+    background-color: blue;
+    color: white;
+    padding: 0 40px;
+
+}
+
+.cabecalho {
+    font-size: 80px;
+}
+
+.linha {
+    display: flex;
+}
+
+.coluna {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.coluna-1{
+    flex: 1;
+}
+
+.coluna-2 {
+    flex: 2;
+}
+
+.coluna-3 {
+    flex: 3;
+}
+
+.img-responsivo {
+    width: 100%;
+}
+
+.centralizada {
+    align-items: center;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+#conteudo {
+    background-color: white;
+}
+
+#conteudo {
+    text-align: justify;
+}
+
+#galeria {
+
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.galeria li {
+    flex: 1;
+    flex-basis: 30%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.linha-cetralizada {
+    justify-content: space-around;
+}
+
+#contato {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.form-input {
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.form-input:focus{
+    border: 3px solid;
+    border: red;
+}
+
+.form-label {
+    margin-left: 5px;
+}
+
+.botao {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    margin-left: 3px;
+}
+
+.botao:hover {
+    background-color: rgb(25, 25, 103);
+
+}
